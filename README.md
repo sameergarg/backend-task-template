@@ -14,7 +14,7 @@ We would like you to write a command line app in Scala or Java. You are free to 
 any combination of others that will make the task easier for you, or cleaner. The problem is deliberately not
 too complex to focus on the things mentioned above.
 
-The task is to simulate a game of snap between two players using standard playing card decks.
+The task is to simulate a game of snap between two computer players using standard playing card decks.
 These requirements should drive your solution in a way that will show us multiple facets of your coding style:
 
 * The application should ask the user how many playing card decks to play with (also possibly how
