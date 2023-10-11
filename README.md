@@ -25,7 +25,7 @@ many players, but can also default to just 2)
 * You may choose single or multithreaded approach whichever suits you better, but do include some
 form of randomness.
 
-### Rules of snap:
+### Rules of Snap
 * Each player takes turns placing a card from their hand onto a stack in front of them
 * At any time where there are matching stacks, any player may call 'Snap!'
 * When a player calls snap, they take all matching stacks into their hand
