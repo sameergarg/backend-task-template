@@ -28,7 +28,9 @@ the player who scored more cards, or after multiple rounds once one player holds
 Whichever is easier / makes more sense to you.
 * You may choose single or multithreaded approach whichever suits you better, but do include some
 form of randomness.
-Guidelines
+
+## Guidelines
+
 * We recommend you spend no more than 2 hours on the task.
 * Feel free to get it back to us however you like (GitHub, email, ...)
 
