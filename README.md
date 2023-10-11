@@ -9,6 +9,7 @@ easy to understand and follow. To put it short, that it is in a form that you yo
 codebase.
 
 ## The Assignment
+
 We would like you to write a command line app in Scala or Java. You are free to use just standard libraries, or
 any combination of others that will make the task easier for you, or cleaner. The problem is deliberately not
 too complex to focus on the things mentioned above.
@@ -34,4 +35,4 @@ form of randomness.
 * We recommend you spend no more than 2 hours on the task.
 * Feel free to get it back to us however you like (GitHub, email, ...)
 
-Don’t hesitate to get in touch If anything Is unclear, or if you have any questions.
+Don’t hesitate to get in touch if anything is unclear, or if you have any questions.
