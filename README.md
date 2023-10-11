@@ -13,25 +13,26 @@ We would like you to write a command line app in Scala or Java. You are free to 
 any combination of others that will make the task easier for you, or cleaner. The problem is deliberately not
 too complex to focus on the things mentioned above.
 
-The task is to simulate a game of snap between two players using standard playing card decks.
+The task is to simulate a game of snap between two or more players using standard playing card decks.
 These requirements should drive your solution in a way that will show us multiple facets of your coding style:
 
 * The application should ask the user how many playing card decks to play with (also possibly how
 many players, but can also default to just 2)
 * The application should ask the user whether cards should be matched: on suit, value, or both.
-* The application should shuffle the decks before play commences.
-* Games of snap should then be simulated according to the rules below
+* The application should shuffle the decks before play commences
+* The application should simulate a game of snap according to the rules below
+* The application should output the winner
 * You may choose whether all snaps are called by players or whether they can "miss" a snap
 * You may choose single or multithreaded approach whichever suits you better, but do include some
-form of randomness.
+form of randomness
 
 ### Rules of Snap
-* Each player takes turns placing a card from their hand onto a stack in front of them
-* At any time where there are matching stacks, any player may call 'Snap!'
-* When a player calls snap, they take all matching stacks into their hand
-* The game ends either after the first round when all cards were dealt, with the winner being
-the player who scored more cards, or after multiple rounds once one player holds all the cards.
-Whichever is easier / makes more sense to you.
+* First, cards are split equally between players, discarding any excess cards
+* Then, each player takes turns placing a card from their hand onto a stack in front of them
+* At any time when there are top cards of stacks matching, any player may call 'Snap!'
+* A player is eliminated when they run out of cards
+* The game ends either when the first player is eliminated or there is only one player left - whichever is easier / makes more sense to you
+* The winner is the player who scored the most cards
 
 ## Guidelines
 * We recommend you spend no more than 2 hours on the task.
