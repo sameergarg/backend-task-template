@@ -20,15 +20,20 @@ These requirements should drive your solution in a way that will show us multipl
 many players, but can also default to just 2)
 * The application should ask the user whether cards should be matched: on suit, value, or both.
 * The application should shuffle the decks before play commences.
-* Games of snap should then be simulated between players. Cards are played one at a time in order by
-each player in the game, onto their stack. When a player deals a card that matches a card at the top
-of another player's stack, the first player to 'shout' snap 'takes' the two piles.
-* The stop condition can be either after the first round when all cards were dealt, with the winner being
-the player who scored more cards, or after multiple rounds once one player holds all the cards.
-Whichever is easier / makes more sense to you.
+* Games of snap should then be simulated according to the rules below
+* You may choose whether all snaps are called by players or whether they can "miss" a snap
 * You may choose single or multithreaded approach whichever suits you better, but do include some
 form of randomness.
-Guidelines
+
+### Rules of snap:
+* Each player takes turns placing a card from their hand onto a stack in front of them
+* At any time where there are matching stacks, any player may call 'Snap!'
+* When a player calls snap, they take all matching stacks into their hand
+* The game ends either after the first round when all cards were dealt, with the winner being
+the player who scored more cards, or after multiple rounds once one player holds all the cards.
+Whichever is easier / makes more sense to you.
+
+### Guidelines
 * We recommend you spend no more than 2 hours on the task.
 * Feel free to get it back to us however you like (GitHub, email, ...)
 
