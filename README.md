@@ -9,7 +9,7 @@ easy to understand and follow. In short, write in a form that you yourself would
 codebase.
 
 ## The Assignment
-We would like you to write a command line app in Scala, Java or Kotlin. You are free to use just standard libraries, or
+We would like you to write a command line app in Scala or Java. You are free to use just standard libraries, or
 any combination of others that will make the task easier for you, or cleaner. The problem is deliberately not
 too complex to focus on the things mentioned above.
 
