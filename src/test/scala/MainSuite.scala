@@ -2,7 +2,7 @@ import Sample.sampleMethod
 import org.scalatest.funsuite.AnyFunSuite
 
 //these tests are provided purely for convenience, and to illustrate a basic ScalaTest suite setup.
-//feel free to delete, modify or extend these to suit your needs.
+//feel free to delete, modify or extend these to suit your needs. (or switch to a different testing library if you prefer!)
 class MainSuite extends AnyFunSuite {
 
   test("sampleMethod should increment value if above 1") {
