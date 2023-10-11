@@ -36,3 +36,23 @@ form of randomness.
 * Feel free to get it back to us however you like (GitHub, email, ...)
 
 Don’t hesitate to get in touch if anything is unclear, or if you have any questions.
+
+## Your thoughts
+
+We find it useful if you can document some of your thinking, including what you would improve given more time. known issues and how you would resolve them given more time. Technical decisions, design decisions, compromises.
+
+Please also add some comments to this file with instructions on how to run your project, and to document what platform and SDK versions you have tested it with.
+
+## This Template project
+
+This project is provided as a skeleton with some basic setup, to save you time, but you are free to add, modify or replace anything, as you prefer.
+
+It currently runs on Scala 2.13.8, and uses [ScalaTest](https://www.scalatest.org/), which supports multiple testing styles - feel free to use any style you prefer.
+
+### Running the project
+
+Run `sbt run` to run the Main class.
+
+You can also run `sbt ~run` to rerun on every file save.
+
+Running `sbt test` will run all tests.
