@@ -30,6 +30,7 @@ form of randomness
 * First, cards are split equally between players, discarding any excess cards
 * Then, each player takes turns placing a card from their hand onto a stack in front of them
 * At any time when there are top cards of stacks matching, any player may call 'Snap!'
+* When a player calls 'Snap!' they take the cards
 * A player is eliminated when they run out of cards
 * The game ends either when the first player is eliminated or there is only one player left - whichever is easier / makes more sense to you
 * The winner is the player who scored the most cards
