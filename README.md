@@ -33,8 +33,7 @@ form of randomness
 * At any time when there are top cards of stacks matching, any player may call 'Snap!'
 * When a player calls 'Snap!' they take the cards
 * A player is eliminated when they run out of cards
-* The game ends either when the first player is eliminated or there is only one player left - whichever is easier / makes more sense to you
-* The winner is the player who scored the most cards
+* The game ends when there is only one player left
 
 ## Guidelines
 * We recommend you spend no more than 2 hours on the task.
