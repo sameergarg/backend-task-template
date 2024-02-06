@@ -31,7 +31,7 @@ form of randomness
 * First, cards are split equally between players, discarding any excess cards
 * Then, each player takes turns placing a card from their hand onto a stack in front of them
 * At any time when there are top cards of stacks matching, any player may call 'Snap!'
-* When a player calls 'Snap!' they take the cards
+* When a player calls 'Snap!' they take all the cards in the matching stacks
 * A player is eliminated when they run out of cards
 * The game ends when there is only one player left
 
