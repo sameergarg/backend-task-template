@@ -14,24 +14,30 @@ We would like you to write a command line app in Scala or Java. You are free to 
 any combination of others that will make the task easier for you, or cleaner. The problem is deliberately not
 too complex to focus on the things mentioned above.
 
-The task is to simulate a game of snap between two computer players using standard playing card decks.
+The task is to simulate a game of snap between two or more computer players using standard playing card decks.
 These requirements should drive your solution in a way that will show us multiple facets of your coding style:
 
-* The application should ask the user how many playing card decks to play with (also possibly how
-many players, but can also default to just 2)
+* The application should ask the user how many playing card decks to play
 * The application should ask the user whether cards should be matched: on suit, value, or both.
-* The application should shuffle the decks before play commences.
-* Games of snap should then be simulated between players. Cards are played one at a time in order by
-each player in the game, onto their stack. When a player deals a card that matches a card at the top
-of another player's stack, the first player to 'shout' snap 'takes' the two piles.
-* The stop condition can be either after the first round when all cards were dealt, with the winner being
-the player who scored more cards, or after multiple rounds once one player holds all the cards.
-Whichever is easier / makes more sense to you.
-* You may choose single or multithreaded approach whichever suits you better, but do include some
-form of randomness.
+* The application should shuffle the decks before play commences
+* The application should simulate a game of snap according to the rules below
+* The application should output the winner
+* You may choose single or multithreaded approach whichever suits you better, but do include some form of randomness
+
+### Rules of Snap
+* First, cards are split equally between players, discarding any excess cards
+* Then, each player takes turns placing a card from their hand onto a stack in front of them
+* When a card is placed and it matches any other stack, any player may call 'Snap!' (not necessarily the player with the matching stack)
+* When a player calls 'Snap!' they take all the cards in the matching stacks
+* A player is eliminated when they run out of cards
+* The game ends when there is only one player left
+
+### Optional Extensions
+* Support more than 2 players
+* Instead of always calling 'Snap!' when there are matching cards, have players "miss" a snap
+* Support an alternative stop condition where the game ends after all players have placed n cards (where n is taken from user input)
 
 ## Guidelines
-
 * We recommend you spend no more than 2 hours on the task.
 * Feel free to get it back to us however you like (GitHub, email, ...)
 
