@@ -18,5 +18,6 @@ Run the Main file
 
 ## Next
 - Error Handling
+- More tests
 - Input Validation
 - Allow players to play simultaneously rather than sequentially(multithreading)
