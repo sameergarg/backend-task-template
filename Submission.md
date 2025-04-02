@@ -7,6 +7,10 @@
 * Support an alternative stop condition where the game ends after all players have placed n cards (where n is taken from user input) - TODO
 
 ## Running the application
+
+### System requirement
+  - sbt.version = 1.10.11
+  - Java (Azul Systems, Inc. Java 21
 ### Command line 
 Run `sbt run` to run the Main class.
 ### Intellij
