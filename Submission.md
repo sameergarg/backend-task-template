@@ -10,7 +10,7 @@
 
 ### System requirement
   - sbt.version = 1.10.11
-  - Java (Azul Systems, Inc. Java 21
+  - Java (Azul Systems, Inc. Java 21)
 ### Command line 
 Run `sbt run` to run the Main class.
 ### Intellij
@@ -20,4 +20,3 @@ Run the Main file
 - Error Handling
 - Input Validation
 - Allow players to play simultaneously rather than sequentially(multithreading)
-- 
